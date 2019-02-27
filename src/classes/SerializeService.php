@@ -8,7 +8,7 @@ public function __construct($format, $data)
 
     switch ($format) {
         case 'xml':
-            //This part is developing
+            //This part is developing///
             $serialize = new Systems\XmlFormat();
             $serialize->data = (array)$data;
             $serialize->xml = new \SimpleXMLElement('<root/>');
